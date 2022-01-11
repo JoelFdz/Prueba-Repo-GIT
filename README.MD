@@ -34,3 +34,51 @@ Underline2
 - <a href="http://google.com">link a google </a>
 - [Esto es un link en Markdown](http://google.com)
 - [Esto es un link en Markdown](index.html)
+
+# Imagenes
+![Logo GitHub](https://cdn-icons-png.flaticon.com/512/25/25231.png)
+
+# Code Snippets
+Codigo en JSON
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+
+Codigo en Javascript
+```JavaScript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+```
+
+
+
