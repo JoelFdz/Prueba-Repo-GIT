@@ -80,5 +80,18 @@ function $initHighlight(block, cls) {
 export  $initHighlight;
 ```
 
+# Tablas
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Maxi | Burgos | 789486645 |
+| Tomas | Tompson | 949146191 |
+
+# Citas
+Esto e sun referen a: 
+> Esto es una cita
+
+Esto es otro texto que no se relaciona con la cita:
+> Otra cita
+
 
 
