@@ -93,5 +93,22 @@ Esto e sun referen a:
 Esto es otro texto que no se relaciona con la cita:
 > Otra cita
 
+# Linewas Divisoras
+Texto 1
 
+---
 
+Texto 2
+
+***
+
+Texto 3
+
+___
+
+# Saltos de Líneas
+Texto 1
+
+Texto 2
+
+Texto 3
